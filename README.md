@@ -1,7 +1,12 @@
 # tailwindcss-elevation
+
+**Note**: This is a fork from jonaskay's tailwindcss-elevation plugin which supports recent versions of Tailwind CSS. More information regarding its configuration is available below.
+
+-----------
+
 [![Build Status](https://travis-ci.com/jonaskay/tailwindcss-elevation.svg?branch=master)](https://travis-ci.com/jonaskay/tailwindcss-elevation) [![Test Coverage](https://api.codeclimate.com/v1/badges/0c8c89a338155da523e7/test_coverage)](https://codeclimate.com/github/jonaskay/tailwindcss-elevation/test_coverage)
 
-Add Material Components elevation classes to your [Tailwind CSS](https://tailwindcss.com/docs/what-is-tailwind/) project. Check out the [demo](https://jonaskay.github.io/tailwindcss-elevation/)!
+Add Material Components elevation classes to your [Tailwind CSS](https://tailwindcss.com/) project. Check out the [demo](https://jonaskay.github.io/tailwindcss-elevation/)!
 
 ## Installation
 
@@ -14,15 +19,10 @@ To activate the plugin, add a `tailwind.config.js` file to the root of your proj
 ```javascript
 module.exports = {
   plugins: [
-    require('tailwindcss-elevation')(['responsive']),
+    require('tailwindcss-elevation')([]),
   ]
 }
 ```
-
-If you don't need the responsive versions, you can pass in an empty array.
-
-You can also include other supported variants. For the full list of available variants, see https://tailwindcss.com/docs/configuring-variants.
-
 To learn more about configuring your Tailwind CSS installation, see https://tailwindcss.com/docs/configuration.
 
 ### Configuration
