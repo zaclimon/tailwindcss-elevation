@@ -1,3 +1,4 @@
 module.exports = {
-  plugins: [require("../../index")([], { color: "#4FD1C5" })]
+  content: ["../*.{html,js}"],
+  plugins: [require("../../index")([], { color: "#4FD1C5" })],
 };
