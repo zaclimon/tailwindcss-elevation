@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0-beta1] - 2022-12-17
+
+### Changed
+
+- Update tailwindcss to 3.x (3.2.4)
+- Adapt tests to tailwindcss 3.x
+- Adapt demo project for tailwindcss 3.x
+
 ## [1.0.1] - 2020-12-06
 
 ### Fixed

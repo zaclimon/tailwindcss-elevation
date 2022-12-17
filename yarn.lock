@@ -2870,9 +2870,12 @@
     "slice-ansi" "^2.1.0"
     "string-width" "^3.0.0"
 
-"tailwindcss-elevation@*", "tailwindcss-elevation@file:/Users/isaac/Dev/Web/tailwindcss-elevation/tailwindcss-elevation":
+"tailwindcss-elevation@*":
+  "resolved" "git+ssh://git@github.com/zaclimon/tailwindcss-elevation.git#81c7b55d858aadeed56e927d54b13be4edaf98e3"
+
+"tailwindcss-elevation@file:/Users/isaac/Dev/Web/tailwindcss-elevation/tailwindcss-elevation":
   "resolved" "file:tailwindcss-elevation"
-  "version" "1.0.1"
+  "version" "1.1.0-beta1"
   dependencies:
     "hex-rgb" "^4.1.0"
 
