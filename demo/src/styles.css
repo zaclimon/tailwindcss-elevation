@@ -1,6 +1,6 @@
 @tailwind base;
-
 @tailwind components;
+@tailwind utilities;
 
 main {
   margin: 0 auto;
@@ -30,5 +30,3 @@ nav {
   text-align: center;
   width: 150px;
 }
-
-@tailwind utilities;

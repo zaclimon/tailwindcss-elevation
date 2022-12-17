@@ -4,3 +4,6 @@ tmp/
 # Ignore test reports
 .nyc_output/
 coverage/
+
+# Remove demo dist folder
+demo/dist/
